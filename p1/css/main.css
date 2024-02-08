@@ -1,6 +1,7 @@
 body {
 	background-color: honeydew;
 	font-size: 20px;
+	line-height: 1.6;
 }
 li {
 	color: forestgreen;
@@ -17,3 +18,5 @@ a:visited {
 a:hover {
 	color: rebeccapurple;
 }
+
+
