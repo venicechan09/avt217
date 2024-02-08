@@ -8,11 +8,12 @@ li {
 a {
 	color: cornflowerblue;
 }
-
 a:link {
 	color: darkcyan;
 }
-
 a:visited {
 	color: lightpink;
+}
+a:hover {
+	color: black;
 }
