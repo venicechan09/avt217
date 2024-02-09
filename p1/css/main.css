@@ -10,7 +10,7 @@ a {
 	color: cornflowerblue;
 }
 a:link {
-	color: darkgreen;
+	color: royalblue;
 }
 a:visited {
 	color: hotpink;
@@ -20,7 +20,7 @@ a:hover {
 }
 h2 {
 	color: forestgreen;
-	font-family: ;
+	font-family: "Lato", sans-serif;
 }
 h1 {
 	color: darkolivegreen;
