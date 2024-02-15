@@ -2,6 +2,8 @@ body {
 	background-color: honeydew;
 	font-size: 20px;
 	line-height: 1.6;
+	margin-left: 100px;
+	margin-right: 275px;
 }
 li {
 	color: forestgreen;
