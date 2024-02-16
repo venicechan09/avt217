@@ -4,6 +4,7 @@ body {
 	line-height: 1.6;
 	margin-left: 100px;
 	margin-right: 275px;
+	margin: 0;
 }
 li {
 	color: forestgreen;
