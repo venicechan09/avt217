@@ -2,13 +2,13 @@ body {
 	background-color: aliceblue;
 	font-size: 16px;
 	line-height: 1.6;
-	margin-left: 50px;
+	margin-left: 300px;
 	margin-right: 300px;
-	font-family: ;
+	font-family: "PT Serif", serif;
 }
 h1 {
 	font-family: "Nanum Gothic", sans-serif;
-	font-size: 40px;
+	font-size: 50px;
 }
 h2 {
 	color: teal;
@@ -25,4 +25,7 @@ h3 {
 }
 #red {
 	color: firebrick;
+}
+.gray {
+	color: darkslategray;
 }
