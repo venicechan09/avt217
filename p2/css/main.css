@@ -1,5 +1,5 @@
 .img {
-	max-width: 100%;
+	max-width: 330px;
     max-height: 540px;
     margin-bottom: 50px;
 }
@@ -11,4 +11,10 @@
 }
 body {
 	background-color: lavender;
+}
+h1 {
+	color: rebeccapurple;
+}
+h2 {
+	color: blueviolet;
 }
