@@ -17,21 +17,23 @@ body {margin: 0; }
 	transform: skew(30deg);
 }
 .p2-1 {
-	width: 20px;
-	height: 20px;
-	background-color: black;
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: #DCAE96;
 	float: left;
-	margin: 5px;
-	transform: rotate(45deg);
 }
 .p2-2 {
-	width: 50px;
+	width: 100px;
 	height: 50px;
-	background-color: magenta;
+	transform: skew(160deg);
+	background: #FDFD96;
 	float: left;
-	margin: 10px;
-	transform: rotate(65deg);
-/*	filter: drop-shadow(0 -2mm 2mm rgb(160, 0, 210));*/
+}
+#brown {
+	width: 1920px;
+	height: 2600px;
+    background-color: #bf8769;
 }
 .p3-1 {
 	width: 0;
@@ -52,9 +54,86 @@ body {margin: 0; }
 	float: left;
 }
 .p4-1 {
-	width: 30px;
-	height: 30px;
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 	float: left;
-	background-color: #000001;
+	background-color: #4292B9;
+}
+.p4-2 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	background-color: #70C4BC;
+}
+.p4-3 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	background-color: #8FD79F;
+}
+.p4-4 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	background-color: #B2E782;
+}
+.p4-5 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	background-color: #FFF54E;
+}
+.p4-6 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	background-color: #FED303;
+}
+.p5-1 {
+	width: 80px;
+  	height: 80px;
+	border-radius: 25px;
+	float: left;
+  	background: rgba(0, 0, 0, 1.0);
+}
+.p5-2 {
+	width: 80px;
+  	height: 80px;
+	border-radius: 25px;
+	float: left;
+  	background: rgba(0, 0, 0, 0.8);
+}
+.p5-3 {
+	width: 80px;
+  	height: 80px;
+	border-radius: 25px;
+	float: left;
+  	background: rgba(0, 0, 0, 0.6);
+}
+.p5-4 {
+	width: 80px;
+  	height: 80px;
+	border-radius: 25px;
+	float: left;
+  	background: rgba(0, 0, 0, 0.4);
+}
+.p5-5 {
+	width: 80px;
+  	height: 80px;
+	border-radius: 25px;
+	float: left;
+  	background: rgba(0, 0, 0, 0.2);
+}
+.p5-6 {
+	width: 80px;
+  	height: 80px;
+	border-radius: 25px;
+	float: left;
+  	background: rgba(0, 0, 0, 0);
 }
