@@ -1,6 +1,25 @@
+/***layout style***/
+* {
+	border-sizing: border-box;
+}
+header {
+	width: 75vw;
+	margin: 25px auto;
+}
+main {
+	width: 75vw;
+	margin: 25px auto;
+	display: flow-root;
+}
+.col {
+	width: 50%;
+	float: left;
+}
 body {
 	background-color: lavender;
 }
+
+/***type style***/
 li {
 	color: indigo;
 	margin-left: 50px;
@@ -34,3 +53,9 @@ a:visited {
 }
 a:hover {
 	color: lightpink;
+
+@media screen and (max-width: 900px) {
+	body {
+		background-color: yellowgreen;
+	}
+}
