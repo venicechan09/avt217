@@ -50,10 +50,9 @@ a:link {
 a:visited {
 	color: mediumorchid;
 }
-
-/***hover not working with media screen***
 a:hover {
-	color: lightpink;**/
+	color: lightpink;
+}
 
 @media screen and (max-width: 950px) {
 	.col {
