@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+}
+.green {
+	background-color: #74A12E;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.black {
+	background-color: #222222;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.board {
+	width: 800px;
+}
