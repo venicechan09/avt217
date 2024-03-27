@@ -94,3 +94,73 @@ footer {
 	margin-bottom: 100px;
 	float: left;
 }
+
+/***tennis court***/
+.courtcontainer {
+	width: 1015px;
+	display: flow-root;
+	background-color: white;
+	margin: 100px auto;
+}
+.rectangle {
+	width: 150px;
+	height: 200px;
+	background-color: palegreen;
+	float: left;
+}
+.rectangle2 {
+	width: 705px;
+	height: 200px;
+	background-color: palegreen;
+	margin: 0px 5px 0px 5px;
+	float: left;
+}
+.square {
+	width: 350px;
+	height: 350px;
+	background-color: palegreen;
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+}
+.square2 {
+	width: 350px;
+	height: 350px;
+	background-color: palegreen;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: left;
+}
+.rectangle3 {
+	width: 150px;
+	height: 355px;
+	background-color: palegreen;
+	float: left;
+}
+.topcourt {
+	width: 1015px;
+	height: 555px;
+	background-color: white;
+	display: flow-root;
+}
+.rectangle4 {
+	width: 150px;
+	height: 355px;
+	margin-top: 5px;
+	background-color: palegreen;
+	float: left;
+}
+.rectangle5 {
+	width: 705px;
+	height: 200px;
+	background-color: palegreen;
+	margin: 0px 5px 0px 5px;
+	float: left;
+}
+.bottomcourt {
+	width: 1015px;
+	height: 555px;
+	background-color: white;
+	display: flow-root;
+}
