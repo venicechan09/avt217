@@ -164,3 +164,109 @@ footer {
 	background-color: white;
 	display: flow-root;
 }
+
+/***California case***/
+.calcontainer {
+	width: 700px;
+	background-color: blueviolet;
+	display: flow-root;
+	float: left;
+}
+.firstgrid {
+	width: 235px;
+	background-color: blueviolet;
+	display: flow-root;
+	float: left;
+	margin: 25px 25px 25px 25px;
+}
+.baserect {
+	width: 25px;
+	height: 50px;
+	background-color: tomato;
+	margin: 0px 1px 0px 0px;
+	float: left;
+}
+.baserect2 {
+	width: 25px;
+	height: 50px;
+	background-color: tomato;
+	margin: 0px 1px 0px 1px;
+	float: left;
+}
+.siderect {
+	width: 50px;
+	height: 50px;
+	background-color: tomato;
+	margin-left: 1px;
+	float: left;
+}
+.baserect3 {
+	width: 25px;
+	height: 50px;
+	background-color: tomato;
+	margin: 2px 2px 0px 0px;
+	float: left;
+}
+.midrect {
+	width: 52px;
+	height: 50px;
+	background-color: tomato;
+	margin-top: 2px;
+	margin-right: 2px;
+	float: left;
+}
+.siderect2 {
+	width: 50px;
+	height: 52px;
+	background-color: tomato;
+	float: left;
+}
+.baserect4 {
+	width: 25px;
+	height: 52px;
+	background-color: tomato;
+	margin: 0px 2px 0px 0px;
+	float: left;
+}
+.midrect2 {
+	width: 52px;
+	height: 52px;
+	background-color: tomato;
+	margin-right: 2px;	
+	float: left;
+}
+.siderect3 {
+	width: 50px;
+	height: 50px;
+	background-color: tomato;
+	margin-top: 2px;
+	float: left;
+}
+.secondgrid {
+	width: 235px;
+	background-color: blueviolet;
+	display: flow-root;
+	float: left;
+	margin: 25px 25px 25px -30px;
+}
+.baserect5 {
+	width: 25px;
+	height: 52px;
+	background-color: tomato;
+	margin: 0px 2px 2px 0px;
+	float: left;
+}
+.siderect4 {
+	width: 52px;
+	height: 52px;
+	background-color: tomato;
+	margin-right: 2px;
+	float: left;
+}
+.baserect6 {
+	width: 25px;
+	height: 54px;
+	background-color: tomato;
+	margin-right: 2px;
+	float: left;
+}
