@@ -1,0 +1,351 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+}
+.container {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin: 200px auto;
+}
+.roundedsquare {
+	border-radius: 25px;
+	background: #e8e8e8;
+	padding: 20px;
+	width: 225px;
+	height: 200px;
+	position: relative;
+	left: 50px;
+}
+.semicircle {
+	width: 20rem;
+	height: 10rem;
+	background-color: #7851A9;
+  	border-radius: 10rem 10rem 0 0;
+  	position: relative;
+  	top: -300px;
+}
+.bottomcircle {
+	width: 320px;
+  	height: 40px;
+  	border-radius: 25px;
+  	background: #6c4998;
+  	position: relative;
+  	top: -325px;
+}
+.nub {
+    width: 30px;
+    height: 40px;
+    background: #ececec;
+    border-radius: 40px;
+    transform: skew(-10deg);
+    position: relative;
+    top: -315px;
+    left: 40px;
+}
+.nub2 {
+    width: 30px;
+    height: 40px;
+    background: #ececec;
+    border-radius: 40px;
+    transform: skew(10deg);
+    position: relative;
+    top: -445px;
+    left: 250px;
+}
+.bottomnub {
+    width: 35px;
+    height: 45px;
+    background: #ececec;
+    border-radius: 40px;
+    transform: skew(7deg);
+    position: relative;
+    top: -280px;
+    left: 45px;
+}
+.bottomnub2 {
+    width: 35px;
+    height: 45px;
+    background: #ececec;
+    border-radius: 40px;
+    transform: skew(-7deg);
+    position: relative;
+    top: -325px;
+    left: 243px;
+}
+.eye1 {
+    background: #4357FD;
+    border-radius: 50%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -475px;
+    left: 110px;
+}
+.eye2 {
+    background: #4357FD;
+    border-radius: 50%;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: -495px;
+    left: 200px;
+}
+.mouth {
+	width: 50px;
+  	height: 5px;
+  	border-radius: 25px;
+  	background: #4357FD;
+  	position: relative;
+  	top: -500px;
+  	left: 135px;
+}
+.four-pointed-star{
+	position: relative;
+	margin: 1em auto;
+	width: 1em;
+	font-size: 1.5em;
+	top: -665px;
+	left: -87px;
+}
+.four-pointed-star:before{
+	content:"";
+	position: absolute;
+	background: #FFFFFF;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.four-pointed-star:after{
+	content:"";
+	position: absolute;
+	background: #FFFFFF;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.four-pointed-star2 {
+	position: relative;
+	margin: 1em auto;
+	width: 1em;
+	font-size: 1.5em;
+	top: -663px;
+	left: -180px;
+}
+.four-pointed-star2:before {
+	content:"";
+	position: absolute;
+	background: #FFFFFF;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.four-pointed-star2:after {
+	content:"";
+	position: absolute;
+	background: #FFFFFF;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.four-pointed-star3 {
+	position: relative;
+	margin: 1em auto;
+	width: 1em;
+	font-size: 1.5em;
+	top: -665px;
+	left: 7px;
+}
+.four-pointed-star3:before {
+	content:"";
+	position: absolute;
+	background: #FFFFFF;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.four-pointed-star3:after {
+	content:"";
+	position: absolute;
+	background: #FFFFFF;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.four-pointed-star4 {
+	position: relative;
+	margin: 1em auto;
+	width: 1em;
+	font-size: 1em;
+	top: -740px;
+	left: -88px;
+}
+.four-pointed-star4:after {
+	content:"";
+	position: absolute;
+	background: white;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+}
+
+/***glowing***/
+.container2 {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin: 200px auto;
+	top: -700px;
+	left: 350px;
+}
+.gfour-pointed-star{
+	position: relative;
+	margin: 1em auto;
+	width: 1em;
+	font-size: 1.5em;
+	top: -665px;
+	left: -87px;
+}
+.gfour-pointed-star:before{
+	content:"";
+	position: absolute;
+	background: #befdb7;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.gfour-pointed-star:after{
+	content:"";
+	position: absolute;
+	background: #befdb7;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.gfour-pointed-star2 {
+	position: relative;
+	margin: 1em auto;
+	width: 1em;
+	font-size: 1.5em;
+	top: -663px;
+	left: -180px;
+}
+.gfour-pointed-star2:before {
+	content:"";
+	position: absolute;
+	background: #befdb7;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.gfour-pointed-star2:after {
+	content:"";
+	position: absolute;
+	background: #befdb7;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.gfour-pointed-star3 {
+	position: relative;
+	margin: 1em auto;
+	width: 1em;
+	font-size: 1.5em;
+	top: -665px;
+	left: 7px;
+}
+.gfour-pointed-star3:before {
+	content:"";
+	position: absolute;
+	background: #befdb7;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.gfour-pointed-star3:after {
+	content:"";
+	position: absolute;
+	background: #befdb7;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.gfour-pointed-star4 {
+	position: relative;
+	margin: 1em auto;
+	width: 1em;
+	font-size: 1em;
+	top: -740px;
+	left: -88px;
+}
+.gfour-pointed-star4:after {
+	content:"";
+	position: absolute;
+	background: #befdb7;
+	width: 1em;
+	height: 1.15em;
+	transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+}
+.groundedsquare {
+	border-radius: 25px;
+	background: #befdb7;
+	padding: 20px;
+	width: 225px;
+	height: 200px;
+	position: relative;
+	left: 50px;
+}
+.gnub {
+    width: 30px;
+    height: 40px;
+    background: #befdb7;
+    border-radius: 40px;
+    transform: skew(-10deg);
+    position: relative;
+    top: -315px;
+    left: 40px;
+}
+.gnub2 {
+    width: 30px;
+    height: 40px;
+    background: #befdb7;
+    border-radius: 40px;
+    transform: skew(10deg);
+    position: relative;
+    top: -445px;
+    left: 250px;
+}
+.gbottomnub {
+    width: 35px;
+    height: 45px;
+    background: #befdb7;
+    border-radius: 40px;
+    transform: skew(7deg);
+    position: relative;
+    top: -280px;
+    left: 45px;
+}
+.gbottomnub2 {
+    width: 35px;
+    height: 45px;
+    background: #befdb7;
+    border-radius: 40px;
+    transform: skew(-7deg);
+    position: relative;
+    top: -325px;
+    left: 243px;
+}
+.glow {
+	background: #befdb7;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    filter: blur(6rem);
+    position: relative;
+    margin: 200px auto;
+    top: -800px;
+    left: -90px;
+    z-index: 100px;
+}
